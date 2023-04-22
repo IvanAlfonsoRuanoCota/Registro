@@ -181,3 +181,14 @@ function borrarAlumno(identificador){
     estudiantes.splice(identificador,1);
 
 }
+
+$(document).ready(function() {
+    $.ajax({
+      url: "register.html",
+      dataType: "html",
+      success: function(data) {
+        var tableData = $(data).find("table").html();
+        $("#table-container").html(tableData);
+      }
+    });
+  });
