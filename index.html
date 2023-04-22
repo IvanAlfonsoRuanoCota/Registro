@@ -1,83 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mystyle.css">
-    <title>Clase Maravilla</title> 
-   
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="Styles/mystyle.css">
+    <style>
+    
+        iframe {
+          border: none;
+          width: 100%;
+          height: 500px;
+        }
+      </style>
 </head>
-
 <body>
-        <nav class="menu"> 
-             <img class="logo" src="Imagenes/Logo NatGeo.webp" alt="Este es el logo">
-             <img class="logo-border" src="Imagenes/ng-border.png" alt="Este es el logo pequeno">
-
-            <div>
-                <a class="link-login" href="#">Login</a>
-                <a class="link-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                <a class="link-news" href="#">Newsletters</a>
-                <a class="link-subs" href="#">Subscribe</a>
-                <a class="link-menu" href="#">Menu</a>
-                <a class="link-angle" href="#"> <i class="fa-solid fa-angles-down"></i></a>
-            </div>
-
-        </nav>
-
     <header>
-        <h1>Latest Stories</h1>
-        <!-- esto es un comentario-->
-        <p> Subscribe for full access to read stories from National Geographic.</p>
-        <div class="borde"></div>
         
+        <nav>
+            <ul>
+                <a href="index.html"><img src="Imagenes\ff7c525c1c3e1bef640644542001e1fd-logotipo-da-escola-online-by-vexels.png" alt="Descripción de la imagen"></a>
+            </ul>
+        </nav>
+        <h1>Universidad Autonoma de Baja California</h1>
+        <nav>
+            <ul>
+                <li><a href="register.html">Registro</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-        <div>
-            <div class="container">
-                <div class="main-news">
-                <img class="img-queen" src="Imagenes/Reina.avif" alt="queen">
-                <div class="main-news-text">
-                    <h3>HISTORY MAGAZINE</h3>
-                    <p>Decoded secret letter reaveal plot against Queen Elizabeth</p>
-                    <a class="read-btn" href="#"></i>Read</a>
-            </div>
-            </div>
+        <h2>Bienvenido a la Universidad</h2>
+        <p>En nuestra universidad ofrecemos una educación de calidad en diversas áreas del conocimiento.</p>
+        <iframe src="https://www.uabc.mx/"></iframe>
 
-            <div class="secondary-news">
-                <img class="img-salves" src="Imagenes/Esclavos.avif" alt="Noticia">
-                <div class="secondary-news-text">
-                    <h3>MAGAZINE</h3>
-                    <p>Americas's last slave ship stole them from home.It couldnt steal their identities</p>
-                    <a class="read-btn" href="#">Read</a>
-            </div>
-        </div>
-
-            <div class="secondary-news">
-                <img class="img-elefante" src="Imagenes/Elefante.webp" alt="Noticia">
-                <div class="secondary-news-text">
-                    <h3>ANIMALS WILDLIFE WATCH</h3>
-                    <p>Whar drives elephant poaching? It's not greed</p>
-                    <a class="read-btn" href="#">Read</a>
-            </div>
-
-         </div>
-        </div>
-
-       </div>
+       
     </main>
-        
+    <div id="table-container"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Scripts\register.js"></script>
+
+    <footer>
+        <p>Universidad - Todos los derechos reservados</p>
+        <p>Contacto: info@universidad.edu.mx</p>
+    </footer>
 </body>
-
-
-<footer>
-    <img class="logof" src="Imagenes/Natgeo2.webp" alt="Este es el logo">
-<span class="GlobalFooter__Copyright__Item--line">Copyright © 2015-2023 National Geographic Partners, LLC. All rights reserved
-
-    </span>
-</footer>
 </html>
